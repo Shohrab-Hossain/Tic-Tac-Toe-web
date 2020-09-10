@@ -1,0 +1,146 @@
+body {
+    /* ------( css code for gradiant background goes below )------ */
+    background: #2BC0E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* --------------------( nav-tab toggle between topics )-------------------- */
+    #gameType{
+        margin-bottom: 10px;
+        font-family: 'Satisfy';
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+    
+    #wrapper {
+        margin: 100px auto 50px auto;   /* margin-top is required because navbar is static on the top */
+    }
+
+    #play-card-01, #play-card-02 {
+        padding: 10px;
+        /* height: 8vh;
+        min-height: 35px; */
+        font-family: 'Pacifico';
+        background-color: #0fa5024d;
+    }
+
+    #play-card-01 {
+        text-align: right;
+        border-top-left-radius: 16px;
+    }
+
+    #play-card-02 {
+        text-align: left;
+        border-top-right-radius: 16px;
+    }
+
+    #player01Char, #player02Char {
+        padding: 0 10px;
+        font-family: 'Permanent Marker';
+        background-color: #868686;
+    }
+
+    #board {
+        padding: 40px;
+        background-color: #e2e2e2;
+        box-shadow: 4px 4px 9px 2px #585858;
+    }
+
+    #start-button {
+        margin-bottom: 30px;
+        font-family: 'Acme';
+        font-size: large;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    #game-message {
+        margin-bottom: 30px;
+        font-family: 'Acme';
+        font-size: large;
+        letter-spacing: 1px;
+        align-self: center;
+    }
+
+    #board .board-cell {
+        padding: 0;
+        height: 80px;
+        font-family: 'Permanent Marker';
+        font-size: x-large;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    #board #board1 {
+        border: 2px solid #525050;
+        border-left: 0;
+        border-bottom: 0;
+        box-shadow: inset -3px 3px 3px 0px #8e8e8e;
+    }
+
+    #board #board2 {
+        border: 2px solid #525050;
+        border-bottom: 0;
+        box-shadow: inset -3px 3px 3px 0px #8e8e8e;
+    }
+
+    #board #board3 {
+        border: 2px solid #525050;
+        border-right: 0;
+        border-bottom: 0;
+        box-shadow: inset 3px 3px 3px 0px #8e8e8e;
+    }
+
+    #board #board4 {
+        border: 2px solid #525050;
+        border-left: 0;
+        box-shadow: inset -3px -3px 3px 0px #8e8e8e;
+    }
+
+    #board #board5 {
+        border: 2px solid #525050;
+        box-shadow: inset -3px -3px 3px 0px #8e8e8e;
+    }
+
+    #board #board6 {
+        border: 2px solid #525050;
+        border-right: 0;
+        box-shadow: inset 3px -3px 3px 0px #8e8e8e;
+    }
+
+    #board #board7 {
+        border: 2px solid #525050;
+        border-left: 0;
+        border-top: 0;
+        box-shadow: inset -3px -3px 3px 0px #8e8e8e;
+    }
+
+    #board #board8 {
+        border: 2px solid #525050;
+        border-top: 0;
+        box-shadow: inset -3px -3px 3px 0px #8e8e8e;
+    }
+
+    #board #board9 {
+        border: 2px solid #525050;
+        border-right: 0;
+        border-top: 0;
+        box-shadow: inset 3px -3px 3px 0px #8e8e8e;
+    }
+
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .bg-clr {
+        background-color: rgb(166 189 135);
+    }
+    
+    

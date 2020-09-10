@@ -1,0 +1,76 @@
+/* --------------------( Maintain navbar icon allignment )-------------------- */
+nav {
+    padding-top: 2px;
+    /* ------( css code for gradiant background goes below )------ */
+    background: #2BC0E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cut-padding-custom {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+nav .nav-item {
+    color: teal;
+    text-decoration: none;
+}
+
+/* navbar theme is custom. So hamburger is designned with custom image, color and border. Bootstrap "navbar-light bg-light" classes were not used */
+nav .nav-item:hover {
+    font-weight: bolder;
+    background-color: rgb(8, 83, 83);
+    color: rgb(248, 248, 248);
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px 1px rgb(94, 93, 93);
+}
+
+nav .navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+}
+
+nav .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    color: black;
+    border: 1px solid transparent;
+}
+
+.navbar-brand img {
+    margin: -5px 8px 0 28px;
+    /* box-shadow: 1px 1px 10px black; */
+}
+
+.navbar-brand span {
+    font-family: Damion;
+    color: rgb(5, 63, 63);
+    text-shadow: 5px 5px 6px #615a5a;
+}
+
+#navbarNavAltMarkup .add-padding-custom {
+    padding-left: 12px;
+}
+
+#navbarNavAltMarkup svg {
+    margin-left: -0.5px;
+    margin-right: 7.5px;
+}
+
+#navbarNavAltMarkup a {
+    width: 110px;
+    font-family: 'Acme';
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#navbarNavAltMarkup div :nth-last-child(2) svg {
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+#navbarNavAltMarkup a:last-child {
+    margin-right: 0px;
+    margin-left: 1px;
+}
+
+/* --------------------( ^ Maintain navbar icon allignment )-------------------- */
