@@ -10,7 +10,7 @@
 
 This **Tic-Tac-Toe** game is designed with **`Python`**.  The *client-side-scripting* of this website is also done with **`Python`**, which makes the **DOM (Document Object Model)** manipulation easy. To use **`Python`** in *client-side-scripting*,  a **Python to JavaScript Compiler** is used, named [**`Brython`**](https://brython.info/static_tutorial/en/index.html).
 
-
+<br>
 
 ### Brython
 
@@ -26,7 +26,7 @@ Of course the big **disadvantage** of compiling anything to **`JavaScript`** is 
 
 See **`Brython`**'s official [**documentation**](https://brython.info/static_tutorial/en/index.html).
 
-
+<br>
 
 ### Implementation of Brython
 
@@ -34,7 +34,7 @@ See **`Brython`**'s official [**documentation**](https://brython.info/static_tut
 
 **`Brython`** helps to use **`Python`** as *client-side-scripting language*. So the job is to load **Brython libraries when the pages get loaded, and then add **Python code** with *html script tag*. **`Brython`** will process the **`Python`** code and generate equivalent **`JavaScript`** code.
 
-
+<br>
 
 > 1. Adding **Brython libraries**
 
@@ -69,7 +69,7 @@ This **`brython()`** function will plug all the brython libraries in the html co
 
 Change the CDN link with most updated one.
 
-
+<br>
 
 > 2. Adding **Python script**
 
@@ -90,7 +90,7 @@ Change the src path of **Python script** with your source path.
 ---
 
 
-
+<br><br>
 
 
 #### Important Links
