@@ -98,6 +98,6 @@ Change the src path of **Python script** with your source path.
 ---
 
 1. **`Python`** source code of **Tic-Tac-Toe game** : [**click here**](https://github.com/Shohrab-Hossain/Tic-Tac-Toe)
-2. See this website in live: [**Play Tic-Tac-Toe**](https://github.com/Shohrab-Hossain/Tic-Tac-Toe)
+2. See this website in live: [**Play Tic-Tac-Toe**](https://tic-tac-toe-sh.herokuapp.com)
 3. **`Brython`** official documentation: [**click here**](https://brython.info/static_tutorial/en/index.html)
 
